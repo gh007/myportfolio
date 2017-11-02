@@ -1,0 +1,43 @@
+
+
+
+.intro h1 {
+    
+    animation: fadeAndScale-h1 2.9s cubic-bezier(1,1.44,0,1.63);
+    transform-origin: center;
+    color: #1423dc;
+    
+    }
+
+    
+@keyframes fadeAndScale-h1 {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+
+to {  
+    opacity: 1; 
+}
+
+}
+
+
+.animatedText h2 {
+    animation: fadeAndScale-h2 1.1s ease-in;
+    transform-origin: center;
+    
+    }
+
+@keyframes fadeAndScale-h2 {
+    from {
+        opacity: 0;
+        
+    }
+
+to {
+    opacity: 1;
+    
+}
+}
+
